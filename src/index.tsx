@@ -1,4 +1,5 @@
-import React = require("react");
+import * as from "react";
+import { ChakraProvider } from '@chakra-ui/react'
 
 import "normalize.css";
 
@@ -11,7 +12,7 @@ document.body.appendChild(root);
 
 ReactDOM.render(
   (
-    <div className="container">0devs</div>
+    <ChakraProvider></ChakraProvider>
   ),
   root
 );
